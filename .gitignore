@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.tmp
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Files exceeding GitHub's hard 100 MB file-size limit
+# Raw source dump: 119.03 MB (Cleaned application dataset railway_fares_clean.csv is preserved)
+data/price_data.csv
